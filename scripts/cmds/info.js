@@ -15,11 +15,11 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const authorName = " ♡ 𝙽𝙸 𝚂 𝙰𝙽 ♡ ";
+		const authorName = " ⩸__𝙽𝙸 𝚂 𝙰𝙽__⩸ ";
 		const ownAge = "『 20 』";
 		const messenger = "https://m.me/disting.disting.need05";
 		const authorFB = "https://www.facebook.com/disting.disting.need05";
-		const authorNumber = "_01775602198";
+		const authorNumber = "_017××××××98";
 		const Status = "_𝘚𝘪𝘯𝘨𝘭𝘦 𝘗𝘳𝘰 𝘔𝘢𝘹 ⛱";
 		const urls = [
 "https://i.imgur.com/hDTLa1z.jpeg",
