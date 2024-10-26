@@ -35,9 +35,9 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "YOU_FB_UID",
+    "61567840496026",
     "",
-    "YOUR_OTHER_FB_UID"
+    ""
   ],
   "whiteListMode": {
     "enable": false,
@@ -48,15 +48,15 @@
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "YOUR_BOT_NAME",
-  "prefix": "/",
+  "nickNameBot": "『 - 』•『𝙿𝚁𝙴𝙽𝙲𝙴𝚂𝚂 𝙻 𝙸 𝚂 𝙰』",
+  "prefix": "-",
   "xnil": "",
   "api": "",
   "api2": "",
   "a6y": "",
   "authorName": "NISAN",
-  "facebook2": "https://www.facebook.com/disting.disting.need05",
-  "facebook": "",
+  "facebook2": "https://www.facebook.com/profile.php?id=61567840496026&mibextid=ZbWKwL",
+  "facebook": "https://www.facebook.com/profile.php?id=61567840496026&mibextid=ZbWKwL",
   "email": "nisaneditz@gmail.com",
   "replit": "https://replit.com/@nisanofficial",
   "github": "https://github.com/LisaxNisan/Pinik_Lisa_Js_GOATBOT-V2",
@@ -175,7 +175,7 @@
   "whiteListModeThread": {
     "enable": false,
     "whiteListThreadIds": [
-      "7908063575903542",
+      "",
       ""
     ],
     "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
