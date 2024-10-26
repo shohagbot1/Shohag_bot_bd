@@ -16,11 +16,11 @@ module.exports = {
 	},
 	onStart: async function ({ message }) {
 		const authorName = " ⩸__𝙽𝙸 𝚂 𝙰𝙽__⩸ ";
-		const ownAge = "『 20 』";
-		const messenger = "https://m.me/disting.disting.need05";
-		const authorFB = "https://www.facebook.com/disting.disting.need05";
+		const ownAge = "『 ⩸__20__⩸ 』";
+		const messenger = "https://m.me/61567840496026";
+		const authorFB = "https://www.facebook.com/profile.php?id=61567840496026";
 		const authorNumber = "_017××××××98";
-		const Status = "_𝘚𝘪𝘯𝘨𝘭𝘦 𝘗𝘳𝘰 𝘔𝘢𝘹 ⛱";
+		const Status = "⩸__𝘚𝘪𝘯𝘨𝘭𝘦 𝘗𝘳𝘰 𝘔𝘢𝘹__⩸";
 		const urls = [
 "https://i.imgur.com/hDTLa1z.jpeg",
 "https://i.imgur.com/WRDSYlU.gif",
@@ -39,8 +39,8 @@ module.exports = {
 		const uptimeString = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
 
 		message.reply({
-			body: `💫《  𝐁𝐨𝐭 𝐀𝐧𝐝 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧  》💫
-\🤖彡𝐵𝑜𝑡 𝑁𝑎𝑚𝑒 : ${global.GoatBot.config.nickNameBot}
+			body: `💫《 ⩸__𝐁𝐨𝐭 𝐀𝐧𝐝 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__⩸ 》💫
+\🤖彡𝐵𝑜𝑡 𝑁𝑎𝑚𝑒 : ⩸__${global.GoatBot.config.nickNameBot}__⩸
 \👾彡𝐵𝑜𝑡 𝑆𝑦𝑠𝑡𝑒𝑚 𝑃𝑟𝑒𝑓𝑖𝑥 : ${global.GoatBot.config.prefix}
 \💙彡𝑂𝑤𝑛𝑒𝑟 𝑁𝑎𝑚𝑒 : ${authorName}
 \📝彡𝐴𝑔𝑒  : ${ownAge}
@@ -49,7 +49,7 @@ module.exports = {
 \🌍彡𝐹𝑎𝑐𝑒𝑏𝑜𝑜𝑘 𝐿𝑖𝑛𝑘 : ${authorFB}
 \🗓彡𝐷𝑎𝑡𝑒 : ${date}
 \⏰彡𝑁𝑜𝑤 𝑇𝑖𝑚𝑒 : ${time}
-\🔰彡𝐴𝑛𝑦 𝐻𝑒𝑙𝑝 𝐶𝑜𝑛𝑡𝑎𝑐𝑡 : ${messenger}
+\🔰彡𝐴𝑛𝑦 𝐻𝑒𝑙𝑝 𝐶𝑜𝑛𝑡𝑎𝑐𝑡 :⩸__${messenger}__⩸
 \📛彡𝐵𝑜𝑡 𝐼𝑠 𝑅𝑢𝑛𝑛𝑖𝑛𝑔 𝐹𝑜𝑟 : ${uptimeString}
     𝑻𝒈: https://t.me/nisan_editz
     𝑰𝒏𝒔𝒕𝒂: https://www.instagram.com/im_editz_x2.0?
