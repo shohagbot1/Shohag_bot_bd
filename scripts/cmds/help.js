@@ -46,7 +46,7 @@ module.exports = {
 
       Object.keys(categories).forEach((category) => {
         if (category !== "info") {
-          msg += `\n╭─────❃『  ${category.toUpperCase()}  』`;
+          msg += `\n╭─────❃『  ☟︎︎︎${category.toUpperCase()} 🐐 』`;
 
           const names = categories[category].commands.sort();
           for (let i = 0; i < names.length; i += 3) {
@@ -59,9 +59,9 @@ module.exports = {
       });
 
       const totalCommands = commands.size;
-      msg += `\n\n╭─────❃[𝙴𝙽𝙹𝙾𝚈]\n│>𝚃𝙾𝚃𝙰𝙻 𝙲𝙼𝙳𝚂: [${totalCommands}].\n│𝗧𝗬𝗣𝗘𝖳:[ ${prefix}𝗛𝗘𝗟𝗣 𝗧𝗢\n│<𝗖𝗠𝗗> 𝗧𝗢 𝗟𝗘𝗔𝗥𝗡 𝗧𝗛𝗘 𝗨𝗦𝗔𝗚𝗘.]\n╰────────────✦`;
+      msg += `\n\n╭─────❃[𝙴𝙽𝙹𝙾𝚈]\n│>𝚃𝙾𝚃𝙰𝙻 𝙲𝙼𝙳𝚂: [${totalCommands}].\n│𝚃𝚈𝙿𝙴:[ ${prefix}𝙷𝙴𝙻𝙿 𝚃𝙾\n│<𝙲𝙼𝙳> 𝚃𝙾 𝙻𝙴𝙰𝚁𝙽 𝚃𝙷𝙴 𝚄𝚂𝙰𝙶𝙴.]\n╰────────────✦`;
       msg += ``;
-      msg += `\n╭─────❃\n│🌟 | [𝙶𝙾𝙰𝚃𝙱𝙾𝚃🐐│https://www.facebook.com/profile.php?id=/disting.disting.need05\n╰────────────✦`; 
+      msg += `\n╭─────❃\n│ 🌟 | [ 𝙶𝙾𝙰𝚃𝙱𝙾𝚃🐐│𝙵𝙱:https://www.facebook.com/profile.php?id=/61567840496026\n╰────────────✦`; 
 
       const attachment = await axios.get("https://i.imgur.com/BG239h5.gif", { responseType: "stream" });
 
@@ -85,9 +85,9 @@ module.exports = {
         const guideBody = configCommand.guide?.en || "No guide available.";
         const usage = guideBody.replace(/{p}/g, prefix).replace(/{n}/g, configCommand.name);
 
-        const response = `╭── 𝙽𝙰𝙼𝙴 ────⭓
+        const response = `╭── 𝐍𝐀𝐌𝐄 ────⭓
   │ ${configCommand.name}
-  ├── 𝙸𝙽𝙵𝙾
+  ├── 𝐈𝐧𝐟𝐨
   │ 𝙳𝚎𝚜𝚌𝚛𝚒𝚙𝚝𝚒𝚘𝚗: ${longDescription}
   │ Other names: ${configCommand.aliases ? configCommand.aliases.join(", ") : "Do not have"}
   │ Other names in your group: Do not have
@@ -96,7 +96,7 @@ module.exports = {
   | 𝙿𝚛𝚎𝚏𝚒𝚡: ${prefix}
   │ 𝚃𝚒𝚖𝚎 𝚙𝚎𝚛 𝚌𝚘𝚖𝚖𝚊𝚗𝚍: ${configCommand.countDown || 1}s
   │ 𝙰𝚞𝚝𝚑𝚘𝚛: ${author}
-  ├── 𝚄𝚜𝚊𝚐𝚎
+  ├── 𝐔𝐬𝐚𝐠𝐞
   │ ${usage}
   ├──𝐍𝐨𝐭𝐞𝐬
   │ The content inside <XXXXX> can be changed
@@ -112,7 +112,7 @@ module.exports = {
 function roleTextToString(roleText) {
   switch (roleText) {
     case 0:
-      return "0 (All users)";
+      return "0 (EVERYONE)";
     case 1:
       return "1 (Group administrators)";
     case 2:
