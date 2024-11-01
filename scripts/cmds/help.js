@@ -63,7 +63,7 @@ module.exports = {
       msg += ``;
       msg += `\n╭─────❃\n│ 🌟 | [ 𝙶𝙾𝙰𝚃𝙱𝙾𝚃🐐│𝙵𝙱:https://www.facebook.com/profile.php?id=/100005765346614\n╰────────────✦`; 
 
-      const attachment = await axios.get("https://i.imgur.com/BG239h5.gif", { responseType: "stream" });
+      const attachment = await axios.get("", { responseType: "stream" });
 
       await message.reply({
         body: msg,
