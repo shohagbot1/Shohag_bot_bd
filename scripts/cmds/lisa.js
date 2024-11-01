@@ -31,7 +31,7 @@ const shortLang = "bn";
 const lang = languagesMap[shortLang] || "bangla";
 
 module.exports.config = {
-  name: "𝙼𝚒𝚕𝚒",
+  name: "𝚖𝚒𝚕𝚒",
   aliases: ["𝙼𝚒𝚕𝚒"],
   version: "1.0.0",
   role: 0,
